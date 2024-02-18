@@ -10,7 +10,7 @@ function MenuDropdown({ children }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="relative">
+    <div className="relative z-50">
       <button onClick={() => setIsOpen(!isOpen)} className="bg-teal-100 text-neutral-900 p-2 rounded-full hover:text-neutral-700 transition-colors">
         <BsThreeDotsVertical />
       </button>
